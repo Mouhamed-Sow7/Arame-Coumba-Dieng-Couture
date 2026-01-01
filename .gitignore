@@ -1,0 +1,23 @@
+# Fichiers de configuration sensibles
+config.js
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Dossiers de développement
+node_modules/
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Images et médias (optionnel - à adapter selon vos besoins)
+# images/
+# videos/
+
