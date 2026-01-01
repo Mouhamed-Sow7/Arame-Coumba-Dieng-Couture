@@ -6,12 +6,12 @@
 }
 
 :root {
-    --primary-color:   #a3ccf4;
+    --primary-color:   #6b98c4ee;
     --secondary-color:#bbe7e4;
-    --accent-color: #F5E6D3;
+    --accent-color: #7b7976;
     --text-dark: #2C2C2C;
     --text-light: #666;
-    --white: #FFFFFF;
+    --white: #f4f4f4f0;
     --shadow: rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
 }
@@ -110,7 +110,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +185,7 @@ section {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: var(--text-dark);
     margin-bottom: 3rem;
     position: relative;
 }
@@ -214,7 +214,7 @@ section {
 
 .presentation-text h3 {
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--text-dark);
     margin-bottom: 1.5rem;
 }
 
@@ -222,7 +222,7 @@ section {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
-    color: var(--text-light);
+    color: var(--text-dark);
 }
 
 .features {
@@ -294,7 +294,7 @@ section {
 
 .about-text h3 {
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--text-dark);
     margin-bottom: 1.5rem;
 }
 
@@ -630,7 +630,7 @@ section {
 }
 
 .btn-submit:hover {
-    background: var(--secondary-color);
+    background: var(--text-dark);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px var(--shadow);
 }
@@ -689,7 +689,7 @@ section {
 
 .info-card a,
 .info-card p {
-    color: var(--text-light);
+    color: var(--text-dark);
     text-decoration: none;
     transition: var(--transition);
 }
